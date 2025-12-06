@@ -1,0 +1,259 @@
+<! DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+           <title>Fashion & Perfume</title>
+            
+            
+            <!-- Bootstrap CSS -->
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+            
+                
+                <!-- Google Fonts Montserrat -->
+                <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+                
+                <!-- Custom CSS -->
+                <link rel="stylesheet" href="perfume.css"> 
+            
+            <!-- Bootstrap Icons -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+            <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+            
+            
+                
+                <!-- AOS Animation CSS -->
+                    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    
+                        <style>
+                            body {
+                            background-color: darkseagreen;
+                            }
+                            section-title{
+                                color: white;
+                                text-align: center;
+                                font-size: 28px;
+                                margin-top: 30px;
+                                font-weight: bold;
+                            }
+                            perfume-img, dress-img{
+                                width: 100%;
+                                border-radius: 10px;
+                            }
+                            footer{
+                                background-color: #006400;
+                                color: white;
+                                padding: 30px 0;
+                                margin-top: 40px;
+                            }
+                            footer a{
+                                color: white;
+                                text-decoration: none;
+                                
+                            }
+                            footer a:hover{
+                                text-decoration: underline;
+                            }
+            </style>
+        </head>
+    
+         <body>
+            
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg shadow-sm fixed-top">
+                    <div class="container">
+                        <a class="navbar-brand" src="index.html">
+                            <img class="navbrand" src="images/logo-removebg-preview.png" alt="lifestyle" width="140px" height="60px"> 
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto align-items-center gap-3">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="study.html">Productivity</a></li>
+                                <li class="nav-item"><a class="nav-link" href="perfume.html">Perfume</a></li>
+                                <li class="nav-item"><a class="nav-link" href="sport.html">Sport</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                
+    
+                
+                <!-- Carousel -->
+                    <div id="car1" class="carousel slide mt-5" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <i class="bi bi-house"></i>
+                            <div class="carousel-item active">
+                                <img src="images/IMG_1391.jpeg" class="d-block w-100" style="height: 500px; object-fit: cover; border-radius: 15px;">
+                                
+                                <div class="carousel-caption glass-box-left d-none d-md-block text-strat" style="background: rgba(255,255,255,0.3); 
+                            backdrop-filter: blur(10px); border-radius: 15px; padding: 15px; max-width: 300px; color: black;"> 
+                                    
+                                    <h5 class="carousel-title">Elevate Your Style</h5>
+                                    <p>Discover perfumes and fashion that express your personality and make every moment especial.</p>
+                                </div>
+                            </div>
+                    
+                                                                                                  "
+                            <div class="carousel-item">
+                                <img src="images/IMG_1396.jpg" class="d-block w-100" style="height: 500px; object-fit: cover; border-radius: 15px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/IMG_1401.jpg" class="d-block w-100" style="height: 500px; object-fit: cover; border-radius: 15px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/IMG_1404.jpg" class="d-block w-100" style="height: 500px; object-fit: cover; border-radius: 15px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/IMG_1414.jpeg" class="d-block w-100" style="height: 500px; object-fit: cover; border-radius: 15px;">
+                            </div>
+                            
+                    </div>
+        
+                        
+                        <!-- Controls -->
+                            
+                            <button class="carousel-control-prev" type="button" data-bs-target="#car1" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#car1" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </button>
+                </div>
+        
+    
+                            
+            <!-- Perfume Info Section -->
+            <section id="main-section" class="container my-5">
+                    <h4 class="text-center mb-5 text-black text-shadow">Match Your Outfit With Perfume Notes</h4>
+                    
+                    <!-- Lavender -->
+                        <div class="row align-items-center mb-5">
+                            <div class="col-md-6 mb-3" data-aos="fade-right">
+                                <img src="images/IMG_1397.jpg" class="img-fluid rounded shadow" style="max-height: 200px;" alt="Lavender Perfume">
+                                <h4 class="text-black mt-2 text-shadow">Lavender Perfume</h4>
+                                <p class="text-white text-shadow">
+                                    Lavender carries a soft, calming elegance that feels both classic and timeless. It's an ideal choice for peaceful moments, evening gathering, and any time you want your presence to feel warm and irresistibly elegant.</p>
+                            </div>
+                            <div class="col-md-6 mb-3" data-aos="fade-left">
+                                <img src="images/IMG_1411.jpg" class="img-fluid rounded shadow" style="max-height: 200px;" alt="Lavender Outfit">
+                                <h4 class="text-black mt-2 text-shadow">Outfit</h4>
+                                <p class="text-white text-shadow">
+                                    Light pastel dresses match beautifully with Lavender perfume for a harmonious look. Perfect for calm outfits and evening wear. This gentle note pairs beautifully with pastel-colored outfits, flowy dresses, and minimalist styles adding a touch of grace to your overall look.
+                                </p>
+                            </div>
+                </div>
+                        
+                        <!-- Citrus -->
+                            <div class="row align-items-center mb-5">
+                                <div class="col-md-6 mb-3" data-aos="fade-right">
+                                    <img src="images/IMG_1399.jpg" class="img-fluid rounded shadow" style="max-height: 200px;" alt="Citrus Perfume">
+                                    <h4 class="text-black mt-2 text-shadow">Citrus Perfume</h4>
+                                    <p class="text-white text-shadow">
+                                        Citrus fragrance bring a bright, energetic freshness that instantly uplifts your mood. This fragrance boost dopamine and serotonin, increase positive mood, reduce tiredness, and give a fresh sense of motivation and energy.</p>
+                                </div>
+                                <div class="col-md-6 mb-3" data-aos="fade-left">
+                                    <img src="images/IMG_1418.jpg" class="img-fluid rounded shadow" style="max-height: 200px;" alt="Citrus Outfit">
+                                    <h4 class="text-black mt-2 text-shadow">Outfit</h4>
+                                    <p class="text-white text-shadow">
+                                        Bright summer dresses or sporty styles go hand in hand with Citrus fragrance. Matches casual, colorful outfits perfectly.Ideal for active days, sunny outing, and moments when you want to feel vibrant and full of energy.</p>
+                                </div>
+                </div>
+                
+                            
+                            <!-- Mint -->
+                                <div class="row align-items-center mb-5">
+                                    <div class="col-md-6 mb-3" data-aos="fade-right">
+                                        <img src="images/IMG_1392.jpeg" class="img-fluid rounded shadow" style="max-height: 200px;" alt="Mint Perfume">
+                                        <h4 class="text-black mt-2 text-shadow">Mint Perfume</h4>
+                                        <p class="text-white">
+                                            Mint is fresh and modern. This scent help clam your mind, make your breathing deeper, and reduce stress. Mint help balance emotions during stressful or angry moments, which support mental relaxation.</p>
+                                    </div>
+                                    
+                                    <div class="col-md-6 mb-3" data-aos="fade-left">
+                                        <img src="images/IMG_1405.jpg" class="img-fluid rounded shadow" style="max-height: 200px;" alt="Mint Outfit">
+                                        <h4 class="text-black mt-2 text-shadow">Outfit</h4>
+                                        <p class="text-white text-shadow">
+                                            Mint notes match beautifully with streetwear, denim jackets, bold, and contemporary outfits, enhancing your stylish appearance effortlessly. Perfect for dynamic days, adventurous moods, and moments when your presence to feel fresh and confident.</p>
+                                    </div>
+                </div>
+            </section> 
+        
+                
+                    
+                                
+                
+                <!-- Footer -->
+<footer class="site-footer">
+  <div class="container py-5">
+    <div class="row">
+
+      <!-- Brand + tagline -->
+      <div class="col-md-4 mb-4">
+        <img src="navbar_brand-removebg-preview.png" alt="logo" class="footer-logo mb-3">
+        <h5 class="footer-title">Lifestyle, Study & Productivity</h5>
+        <p class="footer-desc">
+          Helping students build better habits, organize their lives, and stay consistent.
+        </p>
+      </div>
+
+      <!-- Contact emails -->
+      <div class="col-md-4 mb-4">
+        <h5 class="footer-heading">Contact</h5>
+        <ul class="footer-links">
+          <li><a href="mailto:hematullah.hajizada@auaf.edu">hematullah.hajizada@auaf.edu</a></li>
+          <li><a href="mailto:dunya.yousufzai@auaf.edu.af">dunya.yousufzai@auaf.edu.af</a></li>
+          <li><a href="mailto:farhat.hamidi@auaf.edu.af">farhat.hamidi@auaf.edu.af</a></li>
+          <li><a href="mailto:hanana.mirzaie@auaf.edu.af">hanana.mirzaei@auaf.edu.af</a></li>
+        </ul>
+      </div>
+
+      <!-- Social icons -->
+      <div class="col-md-4 mb-4">
+        <h5 class="footer-heading">Follow Us</h5>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/lifestyle.auaf" target="_blank">
+            <i class="bi bi-instagram"></i> Instagram
+          </a>
+          <a href="#">
+            <i class="bi bi-facebook"></i> Facebook
+          </a>
+          <a href="https://whatsapp.com/channel/0029Vb6uHGhATRSpHOIBJT0B" target="_blank">
+            <i class="bi bi-whatsapp"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom text-center mt-4">
+      <p class="mb-0">&copy; 2025 Lifestyle. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+        
+         
+                        
+             <!-- Bootstrap JS -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+            
+            
+            <!-- Custom JS -->
+            <script src="script.js"></script> 
+
+            
+             <!-- AOS Script -->
+                            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>AOS.init();
+            </script>
+        </body>
+        
+</html>
+
+                           
+                           

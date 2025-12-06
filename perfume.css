@@ -1,0 +1,199 @@
+.body {
+    background-color: #D9F9D3;
+    font-family: "Montserrat" sans-serif;
+    margin: 0;
+    padding-top: 80px;
+    
+}
+.h2, h3, p { 
+    color: #ffffff;
+}
+ 
+.navbar{
+    background-color: #2E7D32;
+    padding: 1rem 2rem;
+    border-radius: 0 0 20px 20px;
+}
+
+.navtitle{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-family: "Montserrat"sans-serif;
+}
+.navtitle:hover{
+    color: #fdae37;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover{
+    color: #fdae37 !important;
+} 
+
+
+.text-white{
+    color: #fff !important; 
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 700; 
+}
+.text-black{
+    color: #000 !important;
+}
+
+.main-section{
+    padding: 50px 0;
+}
+
+.main-section img{
+    max-height: 200px;
+    width: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.main-section img rounded{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.main-section row{
+    margin-bottom: 40px;
+}
+
+.main-section p, #main-section h4{
+    line-height: 1.5;
+}
+
+
+.body{
+    padding-top: 80px; 
+}
+
+carousel-inner img{
+    max-height: 500px;
+    width: auto;
+    margin: auto;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+carousel-caption{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter:blur(10px);
+    padding: 15px 20px;
+    border-radius: 15px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    max-width: 250px;
+    gap: 8px;
+    align-items: center;
+}
+
+carousel-title{
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+carousel-text{
+    color: #fff;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+[data-aos]{
+    transition-property: transform, opacity;
+    transition-duration: 1000ms;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.45)
+}
+
+
+/* Footer */
+.site-footer {
+    background-color: #2E7D32; /* Same green as navbar */
+    color: #fff;
+    padding-top: 50px;
+    border-radius: 20px 20px 0 0; /* Soft top curve */
+    margin-top: 70px;
+}
+
+.footer-logo {
+    width: 140px;
+    height: auto;
+}
+
+.footer-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #fdae37; /* Accent color */
+}
+
+.footer-desc {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+.footer-heading {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #fdae37;
+    margin-bottom: 15px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #fdae37;
+}
+
+.social-icons a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #fdae37;
+}
+
+.social-icons i {
+    font-size: 1.2rem;
+    margin-right: 8px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 15px;
+    opacity: 0.9;
+    font-size: 0.9rem;
+}

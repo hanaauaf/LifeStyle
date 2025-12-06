@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon-16x16.png" type="image/x-icon">
+    <style>
+        body {
+            background-color: #f4f9f4;
+            font-family: 'Nunito', sans-serif;
+        }
+        /* Navigation section  */
+.navbar {
+  background-color: #2E7D32; 
+  padding: 1rem 2rem;
+  border-radius: 0 0 20px 20px; 
+}
+
+.navtitle{
+  color: #fff;
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-decoration: none;
+  font-family: 'Montserrat',sans-serif;
+}
+
+.navtitle:hover {
+  color: #fdae37;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #fdae37 !important;
+}
+        /* Contact card styling */
+.contact-card {
+    background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 30px;
+            border-left: 4px solid #2E7D32;
+            margin-top: 100px;
+}
+
+.contact-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+/* Input fields with icons */
+.contact-input {
+    border: 3px solid #2E7D32;
+    border-radius: 8px;
+    padding: 10px 12px;
+    transition: all 0.3s ease;
+}
+
+.contact-input:focus {
+    border-color: #2E7D32;
+    box-shadow: 0 0 8px rgba(46, 125, 50, 0.4);
+    outline: none;
+}
+
+/* Button styling */
+.btn-contact {
+    background-color: #2E7D32;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid #2E7D32;
+    transition: all 0.3s ease;
+}
+
+.btn-contact:hover {
+    background-color: #1b4f1b; /* darker green on hover */
+    color: #ffffff; /* keep text white */
+    transform: scale(1.05);
+}
+
+
+
+
+        .map-box {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            border-left: 4px solid #2E7D32;
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+            border-radius: 10px;
+        }
+        /* Footer */
+.site-footer {
+  background-color: #2E7D32; /* Same green as navbar */
+  color: #fff;
+  padding-top: 50px;
+  border-radius: 20px 20px 0 0; /* Soft top curve */
+  margin-top: 70px;
+}
+
+.footer-logo {
+  width: 140px;
+  height: auto;
+}
+
+.footer-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #fdae37; /* Accent color */
+}
+
+.footer-desc {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+.footer-heading {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #fdae37;
+  margin-bottom: 15px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #fdae37;
+}
+
+.social-icons a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fdae37;
+}
+
+.social-icons i {
+  font-size: 1.2rem;
+  margin-right: 8px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 15px;
+  opacity: 0.9;
+  font-size: 0.9rem;
+}
+    </style>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+  <header>
+        <nav class="navbar navbar-expand-lg shadow-sm fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img class="navbrand" src="navbar_brand-removebg-preview.png" alt="lifestyel" width="140px" height="60px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto align-items-center gap-3">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="study.html">Productivity</a></li>
+                    <li class="nav-item"><a class="nav-link" href="perfume.html">Fashion & Perfume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sport.html">Sport</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+<div class="container py-5">
+
+    <section id="contact" class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+
+            <div class="col-md-8">
+                <!-- Contact Card -->
+                <div class="contact-card p-4 shadow-sm rounded">
+
+                    <!-- Title inside the card -->
+                    <h2 class="text-center mb-4" style="color:#2E7D32;">Contact Us</h2>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text"><i class="bi bi-person"></i></span>
+                        <input type="text" class="form-control contact-input" placeholder="Your Name">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                        <input type="email" class="form-control contact-input" placeholder="Your Email">
+                    </div>
+
+                    <div class="input-group mb-3">
+                        <span class="input-group-text"><i class="bi bi-chat-dots"></i></span>
+                        <textarea class="form-control contact-input" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <button class="btn btn-contact px-4 py-2">Send Message</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- MAP -->
+    <div class="map-box">
+        <h3 class="text-center mb-3" style="color:#2E7D32;">Our Location - Kabul</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26704.64869232861!2d69.132422!3d34.555349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38f5bdfd3b4e8b6d%3A0xe5b6c0c24dd47ce7!2sKabul%2C%20Afghanistan!5e0!3m2!1sen!2saf!4v1700000000000"
+                allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+</div>
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="container py-5">
+    <div class="row">
+
+      <!-- Brand + tagline -->
+      <div class="col-md-4 mb-4">
+        <img src="navbar_brand-removebg-preview.png" alt="logo" class="footer-logo mb-3">
+        <h5 class="footer-title">Lifestyle, Study & Productivity</h5>
+        <p class="footer-desc">
+          Helping students build better habits, organize their lives, and stay consistent.
+        </p>
+      </div>
+
+      <!-- Contact emails -->
+      <div class="col-md-4 mb-4">
+        <h5 class="footer-heading">Contact</h5>
+        <ul class="footer-links">
+          <li><a href="mailto:hematullah.hajizada@auaf.edu">hematullah.hajizada@auaf.edu</a></li>
+          <li><a href="mailto:dunya.yousufzai@auaf.edu.af">dunya.yousufzai@auaf.edu.af</a></li>
+          <li><a href="mailto:farhat.hamidi@auaf.edu.af">farhat.hamidi@auaf.edu.af</a></li>
+          <li><a href="mailto:hanana.mirzaie@auaf.edu.af">hanana.mirzaei@auaf.edu.af</a></li>
+        </ul>
+      </div>
+
+      <!-- Social icons -->
+      <div class="col-md-4 mb-4">
+        <h5 class="footer-heading">Follow Us</h5>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/lifestyle.auaf" target="_blank">
+            <i class="bi bi-instagram"></i> Instagram
+          </a>
+          <a href="#">
+            <i class="bi bi-facebook"></i> Facebook
+          </a>
+          <a href="https://whatsapp.com/channel/0029Vb6uHGhATRSpHOIBJT0B" target="_blank">
+            <i class="bi bi-whatsapp"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom text-center mt-4">
+      <p class="mb-0">&copy; 2025 Lifestyle. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
